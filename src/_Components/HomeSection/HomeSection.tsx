@@ -14,7 +14,7 @@ export default function HomeSection() {
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, amount: 0.5 }}
-    transition={{ duration: 0.7 }}
+    transition={{ duration: 0.3 }}
   >
     <div className="p-9">
       <p className="border border-[#ff5e18] inline-block py-2 px-6 rounded-full mb-10 text-lg">Group CrossFit Classes</p>
@@ -52,7 +52,7 @@ export default function HomeSection() {
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, amount: 0.5 }}
-    transition={{ duration: 0.7 }}
+    transition={{ duration: 0.3 }}
   >
     <div className="order-2 md:order-1">
       <Image
@@ -90,7 +90,7 @@ export default function HomeSection() {
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, amount: 0.5 }}
-    transition={{ duration: 0.7 }}
+    transition={{ duration: 0.3 }}
   >
     <div className="p-9">
       <p className="border border-[#ff5e18] inline-block py-2 px-6 rounded-full mb-10 text-lg">Personal Training</p>
@@ -129,7 +129,7 @@ export default function HomeSection() {
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, amount: 0.5 }}
-    transition={{ duration: 0.7 }}
+    transition={{ duration: 0.3 }}
   >
     <div className="order-2 md:order-1">
       <Image
@@ -167,7 +167,7 @@ export default function HomeSection() {
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, amount: 0.5 }}
-    transition={{ duration: 0.7 }}
+    transition={{ duration: 0.3 }}
   >
     <div className="p-5 bg-white/30 flex flex-col justify-center items-center gap-3 rounded-xl border-2 border-[#ff5e18]">
       <div className="flex gap-1 text-yellow-400">
