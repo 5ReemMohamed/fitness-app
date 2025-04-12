@@ -58,7 +58,6 @@ export default function Navbar() {
         <div
           className="md:hidden text-[#ff5e18] cursor-pointer"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle navigation menu"
         >
           <FaBars size={24} />
         </div>
