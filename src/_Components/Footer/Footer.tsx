@@ -17,7 +17,7 @@ export default function Footer() {
     
     <div>
       <h3 className="text-lg font-semibold mb-3 text-[#ff5e18]">Quick Links</h3>
-      <ul className="space-y-2 text-white/70 flex gap-8 items-center justify-center">
+      <ul className="space-y-2 text-white/70 flex gap-8 items-center justify-center px-3">
         <li><Link href="/" className="hover:text-white transition">Home</Link></li>
         <li><Link href="/about" className="hover:text-white transition">About</Link></li>
         <li><Link href="/exercises" className="hover:text-white transition">Exercises</Link></li>
