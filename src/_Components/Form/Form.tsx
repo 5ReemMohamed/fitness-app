@@ -49,6 +49,7 @@ export default function ContactForm() {
         toast.success("Message Sent Successfully!");
         resetForm();
       } catch (error) {
+        console.error("Error submitting form:", error);
         toast.error("Something went wrong. Please try again.");
       } finally {
         setSubmitting(false);

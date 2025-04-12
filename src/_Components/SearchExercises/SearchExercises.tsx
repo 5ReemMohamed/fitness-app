@@ -43,7 +43,7 @@ export default function SearchExercises({ bodyPart, setBodyPart }: Props) {
         } else {
           throw new Error("Invalid data format");
         }
-      } catch (err: any) {
+      } catch (err) {
         console.error("Error fetching body parts:", err);
         setError("Failed to load body parts.");
       } finally {
