@@ -16,7 +16,7 @@ export default function ExercisesHome() {
   ];
 
   useEffect(() => {
-    
+     document.title="Exercises";
     const fetchExercisesData = async () => {
       setLoading(true);
       try {
