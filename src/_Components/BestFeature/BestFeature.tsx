@@ -1,10 +1,13 @@
 "use client";
 import Image from "next/image";
-import React, { memo } from "react";
+import React, { memo, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Feature } from "@/Interfaces/Features";
 
 export default memo(function BestFeature() {
+   useEffect(() => {
+    document.title = "Home";
+  }, []);
   const features: Feature[] = [
     {
       id: 1,
