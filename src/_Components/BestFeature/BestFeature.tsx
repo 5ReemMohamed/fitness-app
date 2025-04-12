@@ -32,7 +32,7 @@ export default memo(function BestFeature() {
     <div className="py-20 px-4">
       <div className="heading mb-9">
         <p className="text-[#ff5e18] text-2xl font-semibold text-center capitalize mb-1">Our best features</p>
-        <h2 className="text-white text-center text-5xl font-semibold uppercase tracking-wider">Why choose us ?</h2>
+        <h2 className="text-white text-center text-3xl md:text-5xl font-semibold uppercase tracking-wider">Why choose us ?</h2>
       </div>
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {features.map((feature) => (
