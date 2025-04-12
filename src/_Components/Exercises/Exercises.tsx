@@ -10,7 +10,7 @@ type Props = {
   loading: boolean;
 };
 
-export default function Exercises({ exercises, setExercises, bodyPart, loading }: Props) {
+export default function Exercises({ exercises, bodyPart, loading }: Props) {
   return (
     <div className="flex flex-col gap-3 items-center p-8">
       <div className="grid gap-9 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

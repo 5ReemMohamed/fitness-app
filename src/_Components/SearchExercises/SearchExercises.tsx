@@ -10,7 +10,7 @@ type Props = {
   setBodyPart: React.Dispatch<React.SetStateAction<string>>;
 };
 
-export default function SearchExercises({ setExercises, bodyPart, setBodyPart }: Props) {
+export default function SearchExercises({ bodyPart, setBodyPart }: Props) {
   const [bodyParts, setBodyParts] = useState<string[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);

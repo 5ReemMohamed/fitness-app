@@ -2,7 +2,6 @@
 import Image from "next/image";
 import React, { memo } from "react";
 import { motion } from "framer-motion";
-import { IoMdFitness, IoMdHeart, IoMdNutrition, IoMdThumbsUp } from "react-icons/io";
 import { Feature } from "@/Interfaces/Features";
 
 export default memo(function BestFeature() {
