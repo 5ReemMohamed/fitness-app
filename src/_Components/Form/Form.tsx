@@ -1,6 +1,6 @@
 "use client";
 import * as Yup from "yup";
-import React from "react";
+import React, { useEffect } from "react";
 import { useFormik } from "formik";
 import { motion } from "framer-motion";
 import { Toaster, toast } from "react-hot-toast";
@@ -56,6 +56,9 @@ export default function ContactForm() {
       }
     },
   });
+   useEffect(() => {
+   document.title="Contact Us"
+  }, [])
 
   return (
     <>
