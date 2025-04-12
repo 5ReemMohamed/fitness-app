@@ -1,11 +1,25 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from "@/_Components/Footer/Footer";
+import Header from "@/_Components/Header/Header";
+import Navbar from "@/_Components/Navbar/Navbar";
+import type { Metadata } from "next";
+import { Geist, Geist_Mono, Poppins, Roboto } from "next/font/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+const robotoSans = Roboto({
+  variable:"--font-roboto",
+  subsets: ["latin"],
+
+})
+const poppinsSans = Poppins({
+  variable:"--font-poppins",
+  subsets: ["latin"],
+  weight:"400",
+
+})
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -24,10 +38,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${geistSans.variable} ${robotoSans.variable} ${poppinsSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning={true}>
+         <Navbar />
+         <Header />
+         {children}
+         <Footer />
       </body>
     </html>
   );
