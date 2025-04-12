@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 export default function AboutSection() {
   useEffect(()=> {
+    document.title="About Us"
     window.scrollTo(0,0);
   },[])
   return (
