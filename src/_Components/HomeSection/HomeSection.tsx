@@ -188,7 +188,7 @@ export default function HomeSection() {
         <FaStar />
         <FaStar />
       </div>
-      <p className="text-center w-[60%]">I've gotten so much stronger after joining it's insane. My deadlift increased by 65lbs.</p>
+      <p className="text-center w-[60%]">I have gotten so much stronger after joining it is insane. My deadlift increased by 65lbs.</p>
       <Image src="/testimonials2.png" alt="" width={70} height={70} className="object-cover rounded-full" />
     </div>
     <div className="p-5 bg-white/30 flex flex-col justify-center items-center gap-3 rounded-xl border-2 border-[#ff5e18]">
