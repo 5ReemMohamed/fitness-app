@@ -20,6 +20,7 @@ export default function ExerciseDetails() {
   const id = params?.id;
 
   useEffect(() => {
+     document.title="Exercise Detail";
     window.scrollTo(0, 0);
     
     if (!id) return;
